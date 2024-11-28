@@ -1,0 +1,21 @@
+data_path: "https://atlas-opendata.web.cern.ch/atlas-opendata/13TeV/GamGam/Data/"
+samples:
+  - data15_periodD
+  - data15_periodE
+  - data15_periodF
+  - data15_periodG
+  - data15_periodH
+  - data15_periodJ
+  - data16_periodA
+fraction: 1.0
+variables:
+  - photon_pt
+  - photon_eta
+  - photon_phi
+  - photon_e
+  - photon_isTightID
+  - photon_ptcone20
+xmin: 100
+xmax: 160
+num_bins: 60
+step_size: 1.0
